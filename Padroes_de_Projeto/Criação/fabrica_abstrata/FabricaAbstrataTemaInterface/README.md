@@ -1,3 +1,7 @@
+Resolução - Diagrama de classe
+
+![alt text](https://github.com/JuliaMRC/poo2/blob/master/Padroes_de_Projeto/Cria%C3%A7%C3%A3o/fabrica_abstrata/FabricaAbstrataTemaInterface/EX_Botoes.png)
+
 
 Exercício -  Fábrica Abstrata  - Modelo de classe tema interface. 
 Esse aplicativo de edição de texto permite ao usuário customizar a interface. Dessa forma, ele pode alterar se ele quer uma interface com ícones ou sem ícones. 
