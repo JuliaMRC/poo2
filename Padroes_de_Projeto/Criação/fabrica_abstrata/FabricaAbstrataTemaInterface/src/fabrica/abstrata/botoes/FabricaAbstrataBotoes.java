@@ -13,7 +13,7 @@ import javax.swing.JButton;
  *
  * @author felipe
  */
-public abstract class FabricaAbstrataBotoes {    
+public interface FabricaAbstrataBotoes {    
     public abstract JButton criaBotaoOK();    
     public abstract JButton criaBotaoCancel();            
 }
