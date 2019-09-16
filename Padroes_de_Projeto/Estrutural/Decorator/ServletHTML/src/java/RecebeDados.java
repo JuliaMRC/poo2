@@ -20,6 +20,7 @@ public class RecebeDados extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
+            System.out.println("hello");
             out.println("<title>Servlet RecebeDados</title>");            
             out.println("</head>");
             out.println("<body>");
