@@ -21,8 +21,19 @@ public class NumerosTelefone {
         
         String path = "C:/Users/20171bsi0162/Documents/NetBeansProjects/poo2/Padroes_de_Projeto/Criação/singleton/NumerosTelefone/numeros.txt";
         
-        //ManipulaArquivo.escritor(path, "999990101");
-        ManipulaArquivo.leitor(path);
+        //ManipulaArquivo.escritor(path, Integer.toString(999990101));
+        //ManipulaArquivo.escritor(path, Integer.toString(999990102));
+        //ManipulaArquivo.escritor(path, Integer.toString(999990103));
+        //ManipulaArquivo.escritor(path, Integer.toString(999990104));
+        
+        SingletonGeraNumero generator = SingletonGeraNumero.getInstancia();
+        System.out.println("next number: " + generator.getNextNumero());
+        System.out.println("next number: " + generator.getNextNumero());
+        System.out.println("next number: " + generator.getNextNumero());
+        
+        
+        
+        //ManipulaArquivo.leitor(path);
     }
     
 }

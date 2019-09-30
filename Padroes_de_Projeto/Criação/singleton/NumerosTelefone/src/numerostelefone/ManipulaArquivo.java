@@ -18,17 +18,23 @@ import java.io.IOException;
 
 public class ManipulaArquivo {
     
-    public static void leitor(String path) throws IOException{
+    public static String leitor(String path) throws IOException{
         BufferedReader buffRead = new BufferedReader(new FileReader(path));
         String linha = "";
+        String saveLine = "";        
+        
         while(true){
             if (linha != null){
                 System.out.println(linha);
+                saveLine = linha;
             } else
+                //saveLine = "999990101";
                 break;
             linha = buffRead.readLine();
         }
         buffRead.close();
+        
+        return saveLine;
     }
     
     public static void escritor(String path, String numero) throws IOException{
