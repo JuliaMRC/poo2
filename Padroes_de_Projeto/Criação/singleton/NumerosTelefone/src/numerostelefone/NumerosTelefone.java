@@ -19,9 +19,9 @@ public class NumerosTelefone {
      */
     public static void main(String[] args) throws IOException {
         
-        String path = "C:/Users/20171bsi0162/Documents/NetBeansProjects/poo2/Padroes_de_Projeto/Criação/singleton/NumerosTelefone/numeros.txt";
+        String path = "C:/Users/Julia/Documents/GitHub/poo2/Padroes_de_Projeto/Criação/singleton/NumerosTelefone/numeros.txt";
         
-        //ManipulaArquivo.escritor(path, Integer.toString(999990101));
+        ManipulaArquivo.escritor(path, Integer.toString(999990101));
         //ManipulaArquivo.escritor(path, Integer.toString(999990102));
         //ManipulaArquivo.escritor(path, Integer.toString(999990103));
         //ManipulaArquivo.escritor(path, Integer.toString(999990104));

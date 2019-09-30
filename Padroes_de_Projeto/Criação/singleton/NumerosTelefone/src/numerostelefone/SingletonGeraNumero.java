@@ -12,7 +12,7 @@ import java.io.IOException;
  * @author 20171BSI0162
  */
 public class SingletonGeraNumero {
-    String path = "C:/Users/20171bsi0162/Documents/NetBeansProjects/poo2/Padroes_de_Projeto/Criação/singleton/NumerosTelefone/numeros.txt";
+    String path = "C:/Users/Julia/Documents/GitHub/poo2/Padroes_de_Projeto/Criação/singleton/NumerosTelefone/numeros.txt";
     
     private static SingletonGeraNumero instancia;
     
@@ -31,6 +31,6 @@ public class SingletonGeraNumero {
     }
     
     public synchronized int getNextNumero(){
-        return cont++;
+        return ++cont;
     }
 }
