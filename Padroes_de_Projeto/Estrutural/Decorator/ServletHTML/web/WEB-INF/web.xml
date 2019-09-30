@@ -43,6 +43,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>formulario.html</welcome-file>
+        <welcome-file>formularioCarros.html</welcome-file>
     </welcome-file-list>
 </web-app>
