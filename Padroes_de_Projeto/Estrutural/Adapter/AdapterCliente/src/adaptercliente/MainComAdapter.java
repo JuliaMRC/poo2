@@ -21,7 +21,9 @@ public class MainComAdapter {
         ce.setNome("Jose");
         ce.setSobreNome("Silva");
         VisaoCliente visao = new VisaoCliente();
+        
         AdapterClienteExterno clienteAdapter = new AdapterClienteExterno(ce);
+        
         visao.setInformacoesCliente(clienteAdapter);//espera um Cliente
         visao.setVisible(true); 
         
