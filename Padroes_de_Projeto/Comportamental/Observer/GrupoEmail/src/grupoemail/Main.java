@@ -14,6 +14,17 @@ public class Main {
     
     public static void main(String[] args) {
         
+        MembroEmail monitorEmail = new MembroEmail();
+        MembrosWhatsApp monitorWpp = new MembrosWhatsApp();
+        
+        CaixaEntradaGrupo caixaEntrada = new CaixaEntradaGrupo();
+        caixaEntrada.addObserver(monitorEmail);
+        caixaEntrada.addObserver(monitorWpp);
+ 
+        
+        caixaEntrada.setMensagem("bom dia");
+        
+        
     }
     
 }

@@ -9,7 +9,7 @@ package grupoemail;
  *
  * @author 20171BSI0162
  */
-public class MembrosWhatsApp {
+public class MembrosWhatsApp implements Observer{
     private int numero;
     
 
@@ -19,6 +19,11 @@ public class MembrosWhatsApp {
 
     public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+    @Override
+    public void update(Observable obs) {
+        System.out.println("vc recebeu uma msg wpp");
     }
     
     

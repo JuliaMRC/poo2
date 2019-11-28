@@ -9,7 +9,7 @@ package grupoemail;
  *
  * @author 20171BSI0162
  */
-public class MembroEmail {
+public class MembroEmail implements Observer{
     private String email;
     
     public String getEmail() {
@@ -18,6 +18,11 @@ public class MembroEmail {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public void update(Observable obs) {
+        System.out.println("vc recebeu uma msg email");
     }
     
     

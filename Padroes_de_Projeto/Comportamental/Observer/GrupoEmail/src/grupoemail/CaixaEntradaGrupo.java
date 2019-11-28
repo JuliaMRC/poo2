@@ -9,7 +9,7 @@ package grupoemail;
  *
  * @author 20171BSI0162
  */
-public class CaixaEntradaGrupo {
+public class CaixaEntradaGrupo extends Observable{
 
     private String mensagem;
     
@@ -20,6 +20,8 @@ public class CaixaEntradaGrupo {
 
     public void setMensagem(String mensagem) {
         this.mensagem = mensagem;
+        
+        notifyObserver();
     }
     
     
