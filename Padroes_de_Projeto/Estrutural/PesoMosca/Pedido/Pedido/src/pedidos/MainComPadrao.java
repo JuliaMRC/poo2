@@ -6,6 +6,7 @@
 package pedidos;
 
 import java.util.ArrayList;
+import pedidos.StatusItem.Estado;
 
 /**
  *

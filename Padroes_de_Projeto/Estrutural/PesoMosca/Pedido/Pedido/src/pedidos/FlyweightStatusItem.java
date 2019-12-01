@@ -5,15 +5,20 @@
  */
 package pedidos;
 
+import java.util.HashMap;
+import pedidos.StatusItem.Estado;
+
 /**
  *
  * @author Julia
  */
 public class FlyweightStatusItem {
+
+    private static HashMap<Estado,StatusItem> cache = new HashMap<>();
     
-    static StatusItem.Estado get(StatusItem.Estado estado) {
-        
-        return estado;
+
+    static StatusItem get(StatusItem.Estado estado) {
+        return (StatusItem)cache.get(estado);
     }
     
     
